@@ -1,0 +1,5 @@
+Relationships : 
+
+	* if uses other entities - there is an existence of relation
+	* must mention relation with mapping (mappedBy="publisher") -> will refer this column in the referenced / related entity.
+	* If not jpa will be failed to load bean / failed to run commandLineRunner class
